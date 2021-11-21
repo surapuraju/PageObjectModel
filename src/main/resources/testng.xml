@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APC Application Test Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.apc.kaiser.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Kaiser APC App Test Cases">
+		<classes>
+			<class name="com.apc.kaiser.testcases.LoginPageTest"></class>
+			<class name="com.apc.kaiser.testcases.HomePageTest"></class>
+<!-- 			<class name="com.crm.qa.testcases.ContactsPageTest"></class> -->
+
+		</classes>
+	</test>
+</suite>

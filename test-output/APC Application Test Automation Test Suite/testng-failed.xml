@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [APC Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.apc.kaiser.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.apc.kaiser.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.apc.kaiser.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [APC Application Test Automation Test Suite] -->
