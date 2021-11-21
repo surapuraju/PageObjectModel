@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.apc.kaiser.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
-  <test name="Free CRM App Test Cases(failed)">
+  <test name="Kaiser APC App Test Cases(failed)">
     <classes>
       <class name="com.apc.kaiser.testcases.LoginPageTest">
         <methods>
@@ -13,5 +13,5 @@
         </methods>
       </class> <!-- com.apc.kaiser.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Free CRM App Test Cases(failed) -->
+  </test> <!-- Kaiser APC App Test Cases(failed) -->
 </suite> <!-- Failed suite [APC Application Test Automation Test Suite] -->
