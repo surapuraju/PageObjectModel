@@ -14,7 +14,7 @@ Extent Reports
 
 ### Steps to clone execute the tests
 ```
-git clone <add location>
+git clone https://github.com/surapuraju/PageObjectModel.git
 cd PageObjectModel
 mvn clean test
 ```
