@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-21T08:04:22Z" name="APC Application Test Automation Test Suite" finished-at="2021-11-21T08:05:51Z" duration-ms="89127">
+  <suite started-at="2021-11-21T08:30:36Z" name="APC Application Test Automation Test Suite" finished-at="2021-11-21T08:32:06Z" duration-ms="89231">
     <groups>
     </groups>
-    <test started-at="2021-11-21T08:04:22Z" name="Kaiser APC App Test Cases" finished-at="2021-11-21T08:05:51Z" duration-ms="89127">
+    <test started-at="2021-11-21T08:30:36Z" name="Kaiser APC App Test Cases" finished-at="2021-11-21T08:32:06Z" duration-ms="89231">
       <class name="com.apc.kaiser.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.HomePageTest@561b6512]" started-at="2021-11-21T13:34:31Z" name="setUp" finished-at="2021-11-21T13:34:49Z" duration-ms="17692" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.HomePageTest@561b6512]" started-at="2021-11-21T14:00:47Z" name="setUp" finished-at="2021-11-21T14:01:03Z" duration-ms="16278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.apc.kaiser.testcases.HomePageTest@561b6512]" started-at="2021-11-21T13:34:49Z" name="verifyHomePageTitleTest" finished-at="2021-11-21T13:34:49Z" duration-ms="8" status="PASS">
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.apc.kaiser.testcases.HomePageTest@561b6512]" started-at="2021-11-21T14:01:03Z" name="verifyHomePageTitleTest" finished-at="2021-11-21T14:01:03Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.HomePageTest@561b6512]" started-at="2021-11-21T13:34:49Z" name="setUp" finished-at="2021-11-21T13:35:02Z" duration-ms="13415" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.HomePageTest@561b6512]" started-at="2021-11-21T14:01:03Z" name="setUp" finished-at="2021-11-21T14:01:17Z" duration-ms="14403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="claimsSearchTest()[pri:2, instance:com.apc.kaiser.testcases.HomePageTest@561b6512]" started-at="2021-11-21T13:35:02Z" name="claimsSearchTest" finished-at="2021-11-21T13:35:25Z" duration-ms="22762" status="PASS">
+        <test-method signature="claimsSearchTest()[pri:2, instance:com.apc.kaiser.testcases.HomePageTest@561b6512]" started-at="2021-11-21T14:01:17Z" name="claimsSearchTest" finished-at="2021-11-21T14:01:39Z" duration-ms="21878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- claimsSearchTest -->
       </class> <!-- com.apc.kaiser.testcases.HomePageTest -->
       <class name="com.apc.kaiser.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.LoginPageTest@7494f96a]" started-at="2021-11-21T13:34:22Z" name="setUp" finished-at="2021-11-21T13:34:31Z" duration-ms="8956" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.LoginPageTest@7494f96a]" started-at="2021-11-21T14:00:36Z" name="setUp" finished-at="2021-11-21T14:00:47Z" duration-ms="10236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.apc.kaiser.testcases.LoginPageTest@7494f96a]" started-at="2021-11-21T13:34:31Z" name="loginPageTitleTest" finished-at="2021-11-21T13:34:31Z" duration-ms="41" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.apc.kaiser.testcases.LoginPageTest@7494f96a]" started-at="2021-11-21T14:00:47Z" name="loginPageTitleTest" finished-at="2021-11-21T14:00:47Z" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.LoginPageTest@7494f96a]" started-at="2021-11-21T13:35:25Z" name="setUp" finished-at="2021-11-21T13:35:34Z" duration-ms="8827" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.LoginPageTest@7494f96a]" started-at="2021-11-21T14:01:39Z" name="setUp" finished-at="2021-11-21T14:01:48Z" duration-ms="8965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.apc.kaiser.testcases.LoginPageTest@7494f96a]" started-at="2021-11-21T13:35:34Z" name="loginTest" finished-at="2021-11-21T13:35:51Z" duration-ms="17398" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.apc.kaiser.testcases.LoginPageTest@7494f96a]" started-at="2021-11-21T14:01:48Z" name="loginTest" finished-at="2021-11-21T14:02:06Z" duration-ms="17410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
