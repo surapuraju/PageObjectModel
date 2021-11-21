@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.apc.kaiser.base.TestBase;
-import com.apc.kaiser.pages.ContactsPage;
 import com.apc.kaiser.pages.HomePage;
 import com.apc.kaiser.pages.LoginPage;
 import com.apc.kaiser.util.TestUtil;
