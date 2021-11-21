@@ -7,12 +7,10 @@
 			class-name="com.apc.kaiser.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
-
 	<test name="Kaiser APC App Test Cases">
 		<classes>
 			<class name="com.apc.kaiser.testcases.LoginPageTest"></class>
 			<class name="com.apc.kaiser.testcases.HomePageTest"></class>
-<!-- 			<class name="com.crm.qa.testcases.ContactsPageTest"></class> -->
 
 		</classes>
 	</test>
