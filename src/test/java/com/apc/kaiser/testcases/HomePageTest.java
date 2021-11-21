@@ -1,5 +1,7 @@
 package com.apc.kaiser.testcases;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,7 +17,7 @@ public class HomePageTest extends TestBase {
 	HomePage homePage;
 //	TestUtil testUtil;
 //	ContactsPage contactsPage;
-
+	private static Logger log =LogManager.getLogger(HomePageTest.class.getName());
 	public HomePageTest() {
 		super();
 	}
@@ -45,6 +47,7 @@ public class HomePageTest extends TestBase {
 	public void claimsSearchTest(){
 		homePage.claimsSearchTest();
 		System.out.println("Reached claimsSearchTest ");
+		log.info("Successfully Accessed Claims Page to Search for Claims");
 	}
 		
 	

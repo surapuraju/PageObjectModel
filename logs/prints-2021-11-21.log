@@ -1,0 +1,5 @@
+17:46:51.518 [main] DEBUG com.apc.kaiser.testcases.LoginPageTest - Setting chrome driver property
+17:47:58.775 [main] DEBUG com.apc.kaiser.testcases.LoginPageTest - Setting chrome driver property
+18:02:43.281 [main] DEBUG com.apc.kaiser.testcases.LoginPageTest - Setting chrome driver property
+18:03:22.971 [main] INFO  com.apc.kaiser.testcases.HomePageTest - Successfully Accessed Claims Page to Search for Claims
+18:03:31.503 [main] DEBUG com.apc.kaiser.testcases.LoginPageTest - Setting chrome driver property
