@@ -34,18 +34,20 @@ public class HomePageTest extends TestBase {
 //		contactsPage = new ContactsPage();
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		homePage.claimsSearchTest();
 	}
 	
 	
-	@Test(priority=1)
-	public void verifyHomePageTitleTest(){
-		String homePageTitle = homePage.verifyHomePageTitle();
-		Assert.assertEquals(homePageTitle, "APC Oregon & SW Washington - Welcome page");
-	}
+//	@Test(priority=1)
+//	public void verifyHomePageTitleTest(){
+//		String homePageTitle = homePage.verifyHomePageTitle();
+//		Assert.assertEquals(homePageTitle, "APC Oregon & SW Washington - Welcome page");
+//	}
 	
 	@Test(priority=2)
 	public void claimsSearchTest(){
 		homePage.claimsSearchTest();
+		
 		System.out.println("Reached claimsSearchTest ");
 		log.info("Successfully Accessed Claims Page to Search for Claims");
 	}
@@ -64,10 +66,10 @@ public class HomePageTest extends TestBase {
 //	}
 
 	
-//	@AfterMethod
-//	public void tearDown(){
-//		driver.quit();
-//	}
+	@AfterMethod
+	public void tearDown(){
+		driver.quit();
+	}
 	
 	
 

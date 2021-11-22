@@ -24,10 +24,10 @@ public class HomePage extends TestBase {
 		//System.out.println(driver);
 	}
 	
-	public String verifyHomePageTitle(){
-		return driver.getTitle();
-	}
-	
+//	public String verifyHomePageTitle(){
+//		return driver.getTitle();
+//	}
+//	
 	public HomePage claimsSearchTest(){
 		kpClaimsLink.click();
 		kpClaimsSearch.click();

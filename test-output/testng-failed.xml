@@ -6,12 +6,12 @@
   </listeners>
   <test name="Kaiser APC App Test Cases(failed)">
     <classes>
-      <class name="com.apc.kaiser.testcases.LoginPageTest">
+      <class name="com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest">
         <methods>
           <include name="setUp"/>
-          <include name="loginTest"/>
+          <include name="claimsSearchEnterDataTest"/>
         </methods>
-      </class> <!-- com.apc.kaiser.testcases.LoginPageTest -->
+      </class> <!-- com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest -->
     </classes>
   </test> <!-- Kaiser APC App Test Cases(failed) -->
 </suite> <!-- Failed suite [APC Application Test Automation Test Suite] -->

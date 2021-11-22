@@ -11,6 +11,7 @@
 		<classes>
 			<class name="com.apc.kaiser.testcases.LoginPageTest"></class>
 			<class name="com.apc.kaiser.testcases.HomePageTest"></class>
+			<class name="com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest"></class>
 
 		</classes>
 	</test>

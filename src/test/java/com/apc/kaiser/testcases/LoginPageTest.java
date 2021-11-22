@@ -47,7 +47,7 @@ public class LoginPageTest extends TestBase{
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		
 		try {
-			Thread.sleep(10000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -56,10 +56,10 @@ public class LoginPageTest extends TestBase{
 	
 	
 	
-//	@AfterMethod
-//	public void tearDown(){
-//		driver.quit();
-//	}
+	@AfterMethod
+	public void tearDown(){
+		driver.quit();
+	}
 	
 	
 	
