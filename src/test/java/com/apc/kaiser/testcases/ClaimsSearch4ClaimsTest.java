@@ -37,13 +37,6 @@ public class ClaimsSearch4ClaimsTest extends TestBase{
 		homePage.claimsSearchTest();
 		claimsSearch4Claims.claimsSearch4ClaimsVerify();
 		
-//		initialization();
-//		testUtil = new TestUtil();
-//		contactsPage = new ContactsPage();
-//		loginPage = new LoginPage();
-//		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-//		TestUtil.runTimeInfo("error", "login successful");
-//		testUtil.switchToFrame();
 	}
 	
 	
@@ -55,8 +48,7 @@ public class ClaimsSearch4ClaimsTest extends TestBase{
 	
 	@Test(priority=2)
 	public void claimsSearchEnterDataTest(){
-		homePage.claimsSearchTest();
-				
+		homePage.claimsSearchTest();	
 		claimsSearch4Claims.claimsSearch4ClaimsVerify();
 		
 		System.out.println("Reached claimsSearchTest ");

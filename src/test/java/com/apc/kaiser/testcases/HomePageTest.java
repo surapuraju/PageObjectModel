@@ -16,7 +16,6 @@ public class HomePageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
 //	TestUtil testUtil;
-//	ContactsPage contactsPage;
 	private static Logger log =LogManager.getLogger(HomePageTest.class.getName());
 	public HomePageTest() {
 		super();
@@ -65,7 +64,6 @@ public class HomePageTest extends TestBase {
 //		contactsPage = homePage.clickOnContactsLink();
 //	}
 
-	
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
