@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-22T14:23:12Z" name="APC Application Test Automation Test Suite" finished-at="2021-11-22T14:24:52Z" duration-ms="100155">
+  <suite started-at="2021-11-26T03:33:50Z" name="APC Application Test Automation Test Suite" finished-at="2021-11-26T03:37:12Z" duration-ms="201466">
     <groups>
     </groups>
-    <test started-at="2021-11-22T14:23:12Z" name="Kaiser APC App Test Cases" finished-at="2021-11-22T14:24:52Z" duration-ms="100155">
-      <class name="com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest@319bc845]" started-at="2021-11-22T19:53:12Z" name="setUp" finished-at="2021-11-22T19:54:09Z" duration-ms="56465" status="PASS">
+    <test started-at="2021-11-26T03:33:50Z" name="Kaiser APC App Test Cases" finished-at="2021-11-26T03:37:12Z" duration-ms="201466">
+      <class name="com.apc.kaiser.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.HomePageTest@20b12f8a]" started-at="2021-11-26T09:04:03Z" name="setUp" finished-at="2021-11-26T09:04:41Z" duration-ms="38334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="claimsSearchEnterDataTest()[pri:2, instance:com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest@319bc845]" started-at="2021-11-22T19:54:09Z" name="claimsSearchEnterDataTest" finished-at="2021-11-22T19:54:52Z" duration-ms="43676" status="PASS">
+        <test-method signature="claimsSearchTest()[pri:2, instance:com.apc.kaiser.testcases.HomePageTest@20b12f8a]" started-at="2021-11-26T09:04:41Z" name="claimsSearchTest" finished-at="2021-11-26T09:05:04Z" duration-ms="23187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- claimsSearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apc.kaiser.testcases.HomePageTest@20b12f8a]" started-at="2021-11-26T09:05:04Z" name="tearDown" finished-at="2021-11-26T09:05:05Z" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.apc.kaiser.testcases.HomePageTest -->
+      <class name="com.apc.kaiser.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.LoginPageTest@3569fc08]" started-at="2021-11-26T09:03:50Z" name="setUp" finished-at="2021-11-26T09:04:02Z" duration-ms="11556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.apc.kaiser.testcases.LoginPageTest@3569fc08]" started-at="2021-11-26T09:04:02Z" name="loginPageTitleTest" finished-at="2021-11-26T09:04:02Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apc.kaiser.testcases.LoginPageTest@3569fc08]" started-at="2021-11-26T09:04:02Z" name="tearDown" finished-at="2021-11-26T09:04:03Z" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.LoginPageTest@3569fc08]" started-at="2021-11-26T09:06:51Z" name="setUp" finished-at="2021-11-26T09:07:01Z" duration-ms="10489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.apc.kaiser.testcases.LoginPageTest@3569fc08]" started-at="2021-11-26T09:07:01Z" name="loginTest" finished-at="2021-11-26T09:07:11Z" duration-ms="9562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apc.kaiser.testcases.LoginPageTest@3569fc08]" started-at="2021-11-26T09:07:11Z" name="tearDown" finished-at="2021-11-26T09:07:12Z" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.apc.kaiser.testcases.LoginPageTest -->
+      <class name="com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest@e84a8e1]" started-at="2021-11-26T09:05:05Z" name="setUp" finished-at="2021-11-26T09:06:07Z" duration-ms="61486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="claimsSearchEnterDataTest()[pri:2, instance:com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest@e84a8e1]" started-at="2021-11-26T09:06:07Z" name="claimsSearchEnterDataTest" finished-at="2021-11-26T09:06:51Z" duration-ms="44094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- claimsSearchEnterDataTest -->

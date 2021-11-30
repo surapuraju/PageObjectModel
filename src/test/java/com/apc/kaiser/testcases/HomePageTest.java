@@ -17,6 +17,7 @@ public class HomePageTest extends TestBase {
 	HomePage homePage;
 //	TestUtil testUtil;
 	private static Logger log =LogManager.getLogger(HomePageTest.class.getName());
+	
 	public HomePageTest() {
 		super();
 	}

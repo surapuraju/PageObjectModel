@@ -1,0 +1,5 @@
+19:51:45.165 [main] INFO  com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest - Successfully ClaimsSearch4ClaimsTest
+19:51:53.542 [main] DEBUG com.apc.kaiser.testcases.LoginPageTest - Setting chrome driver property
+19:54:52.874 [main] INFO  com.apc.kaiser.testcases.ClaimsSearch4ClaimsTest - Successfully ClaimsSearch4ClaimsTest
+12:31:10.440 [main] DEBUG com.apc.kaiser.testcases.LoginPageTest - Setting chrome driver property
+12:32:18.706 [main] INFO  com.apc.kaiser.testcases.HomePageTest - Successfully Accessed Claims Page to Search for Claims

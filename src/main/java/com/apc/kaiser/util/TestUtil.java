@@ -23,7 +23,7 @@ public class TestUtil extends TestBase {
 
 	static String dir = System.getProperty("user.dir");
 	
-	static String filePath = dir + "\\src\\main\\java\\com\\apc\\kaiser\\testdata\\FreeCrmTestData.xlsx";
+	static String filePath = dir + "\\src\\main\\java\\com\\apc\\kaiser\\testdata\\TestData.xlsx";
 	public static String TESTDATA_SHEET_PATH = filePath;
 
 	static Workbook book;
