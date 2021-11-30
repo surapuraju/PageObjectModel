@@ -12,24 +12,44 @@
 import os
 from configparser import ConfigParser
 import datetime
+import openpyxl
 
 fileDir = os.path.dirname(os.path.realpath('__file__'))
 config = ConfigParser()
-configFN = "configJiraMetricsBugs.ini"
+configFN = "configJiraXLSXParsing.ini"
 
 config.read(configFN)
-jiraUser = config.get('section', 'JIRA_USERNAME')
-jiraPassword = config.get('section', 'JIRA_PASSWORD')
-BaseURL = config.get('section', 'BASE_URL')
-JIRASprintName = config.get('section', 'JIRASprintName')
+JiraXLSXFileLocation = config.get('section', 'JiraXLSXFileLocation')
+TestCaseFileLocation = config.get('section', 'TestCaseFileLocation')
 
-
-def writeTestCases():
+#def writeTestCases():
 
 
 
 def parseXLSX():
 
+    # Give the location of the file
+    path = (JiraXLSXFileLocation)
+
+    # To open Workbook
+
+    wbObj = openpyxl.load_workbook(path)
+    sheetObj = wbObj.active
+    #sheetObj=sheetObj.get_sheet_by_name('Sheet1')
+    maxRow = sheetObj.max_row
+    print(maxRow)
+    #maxRow = maxRow + 1
+
+    for currRow in range(maxRow):
+        key = sheetObj.cell(row = currRow, column = 1)
+
+        #summary = (sheetObj.cell_value(currRow, 1))
+        #testSteps = (sheetObj.cell_value(currRow, 2))
+
+
+        print(key)
+        #print(summary)
+        #print(testSteps)
 
 
 
