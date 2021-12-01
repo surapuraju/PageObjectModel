@@ -1,0 +1,82 @@
+Key	Summary	Actions	Data	Expected Results
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM	sample	Home (Welcone) page is displayed
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed by ID
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed by ID
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM	sample	Home (Welcone) page is displayed
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed by ID
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed by ID
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM	sample	Home (Welcone) page is displayed
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3433	Claims Search - Summary 1	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3434	Claims Search - Summary 2	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3435	Claims Search - Summary 3	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3436	Claims Search - Summary 4	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3437	Claims Search - Summary 5	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3438	Claims Search - Summary 6	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3439	Claims Search - Summary 7	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed by ID
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3440	Claims Search - Summary 8	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed by ID
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed
+APC-3441	Claims Search - Summary 9	Sign on to APC from KPIM		Home (Welcone) page is displayed
