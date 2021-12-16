@@ -54,55 +54,55 @@ def countX(lst, x):
 
 
 def parseTestCases(cell_obj_c1,cell_obj_c2,cell_obj_c3):
-        #print(cell_obj_c1.value, end = ": " + "\n")
-        #print(cell_obj_c2.value, end = ": " + "\n")
-        #print(cell_obj_c3.value, end = ": " + "\n")
+    #print(cell_obj_c1.value, end = ": " + "\n")
+    #print(cell_obj_c2.value, end = ": " + "\n")
+    #print(cell_obj_c3.value, end = ": " + "\n")
 
-        cell_obj_c1 = str(cell_obj_c1.value)
-        cell_obj_c2 = str(cell_obj_c2.value)
-        cell_obj_c3 = str(cell_obj_c3.value)
+    cell_obj_c1 = str(cell_obj_c1.value)
+    cell_obj_c2 = str(cell_obj_c2.value)
+    cell_obj_c3 = str(cell_obj_c3.value)
 
-        actionsString = 'Actions'
-        dataString = 'Data'
-        expectedResultsString = 'Expected Results'
-        attachmentsString = 'attachments'
+    actionsString = 'Actions'
+    dataString = 'Data'
+    expectedResultsString = 'Expected Results'
+    attachmentsString = 'attachments'
 
-        resultActions=findAll(cell_obj_c3,actionsString)
-        resultData=findAll(cell_obj_c3,dataString)
-        resultExpectedResults=findAll(cell_obj_c3,expectedResultsString)
-        attachmentsResults=findAll(cell_obj_c3,attachmentsString)
+    resultActions=findAll(cell_obj_c3,actionsString)
+    resultData=findAll(cell_obj_c3,dataString)
+    resultExpectedResults=findAll(cell_obj_c3,expectedResultsString)
+    attachmentsResults=findAll(cell_obj_c3,attachmentsString)
 
-        actionsCount = len(resultActions)
-        dataCount = len(resultData)
-        expectedResultsCount = len(resultExpectedResults)
-        attachmentsCount = len(attachmentsResults)
+    actionsCount = len(resultActions)
+    dataCount = len(resultData)
+    expectedResultsCount = len(resultExpectedResults)
+    attachmentsCount = len(attachmentsResults)
 
-##        print(resultActions[0])
+    print(resultActions[0])
 ##        print(resultData[0])
 ##        print(resultExpectedResults[0])
 ##        print(attachmentsResults[0])
 ##        print()
 
-        for loop in range (0, actionsCount):
-            resultActionsStart = resultActions[loop]
-            resultActionsEnd = resultData[loop]
+    for loop in range (0, actionsCount):
+        resultActionsStart = resultActions[loop]
+        resultActionsEnd = resultData[loop]
 
-            resultDataStart = resultData[loop]
-            resultDataEnd = resultExpectedResults[loop]
+        resultDataStart = resultData[loop]
+        resultDataEnd = resultExpectedResults[loop]
 
-            resultExpectedResultsStart = resultExpectedResults[loop]
-            resultExpectedResultsEnd = attachmentsResults[loop]
+        resultExpectedResultsStart = resultExpectedResults[loop]
+        resultExpectedResultsEnd = attachmentsResults[loop]
 
-            actionsStringFinal = cell_obj_c3[resultActionsStart+10:resultActionsEnd-4]
-            dataStringFinal = cell_obj_c3[resultDataStart+7:resultDataEnd-3]
-            ExpectedResultsStringFinal = cell_obj_c3[resultExpectedResultsStart+19:resultExpectedResultsEnd-4]
+        actionsStringFinal = cell_obj_c3[resultActionsStart+10:resultActionsEnd-4]
+        dataStringFinal = cell_obj_c3[resultDataStart+7:resultDataEnd-3]
+        ExpectedResultsStringFinal = cell_obj_c3[resultExpectedResultsStart+19:resultExpectedResultsEnd-4]
 
-            print(actionsStringFinal)
-            print(dataStringFinal)
-            print(ExpectedResultsStringFinal)
-            print()
-            print()
-            writeTestCases(cell_obj_c1,cell_obj_c2,actionsStringFinal,dataStringFinal,ExpectedResultsStringFinal)
+        print(actionsStringFinal)
+        print(dataStringFinal)
+        print(ExpectedResultsStringFinal)
+        print()
+        print()
+        writeTestCases(cell_obj_c1,cell_obj_c2,actionsStringFinal,dataStringFinal,ExpectedResultsStringFinal)
 
 def writeTestCases(cell_obj_c1,cell_obj_c2,actionsStringFinal,dataStringFinal,ExpectedResultsStringFinal):
 
